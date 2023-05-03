@@ -26,15 +26,23 @@ button.addEventListener('click',
 
 
 
-        // Controlla che sia una di quelle della Compagnia
+        // Controlla che sia una di quelle della Compagnia:
+
+        // traversiamo l'array
 
         for (let i = 0; i < emailCompagnia.length; i++) {
 
-            const itemIesimo = emailCompagnia [i];
+            // Ci salviamo il valore iesimo della const emailCompagnia relativo all'iterazione del for (i)
+            const compagniaIesimo = emailCompagnia [i];
 
-            console.log(itemIesimo);
+            console.log(compagniaIesimo);
+     
+
+            // Se la mail è una di quelle della Compagnia apparirà il messaggio 'tu puoi passare'
+
+
+            // Se la mail non è una di quelle della Compagnia apparirà il messaggio 'tu non puoi passare'
         }
-   
     }  
     );
 
@@ -50,7 +58,3 @@ button.addEventListener('click',
 
 
 
-// Se la mail è una di quelle della Compagnia apparirà il messaggio 'tu puoi passare'
-
-
-// Se la mail non è una di quelle della Compagnia apparirà il messaggio 'tu non puoi passare'
