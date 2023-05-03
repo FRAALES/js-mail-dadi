@@ -38,10 +38,20 @@ button.addEventListener('click',
             console.log(compagniaIesimo);
      
 
+            // Condizioni: 
+
             // Se la mail è una di quelle della Compagnia apparirà il messaggio 'tu puoi passare'
 
+            if (compagniaIesimo === 1){
+                console.log("Tu puoi passare");
+            }
 
             // Se la mail non è una di quelle della Compagnia apparirà il messaggio 'tu non puoi passare'
+            else {
+                console.log("Tu non puoi passare");
+            }
+
+            
         }
     }  
     );
