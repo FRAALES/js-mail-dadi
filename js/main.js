@@ -24,9 +24,15 @@ button.addEventListener('click',
         const nuovoItem = `<span>${itemScelto}</span>`
         container.innerHTML = nuovoItem;
 
+
+
         // Controlla che sia una di quelle della Compagnia
-        for (let i = 0; i < emailCompagnia.length; i++){
-            console.log(emailCompagnia[i]);
+
+        for (let i = 0; i < emailCompagnia.length; i++) {
+
+            const itemIesimo = emailCompagnia [i];
+
+            console.log(itemIesimo);
         }
    
     }  
